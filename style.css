@@ -1,9 +1,9 @@
-*{
+*{ /*General style for pages*/
     margin: 0;
     padding: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.banner{
+.banner{ /*Background Image for all pages*/
     width: 100%;
     height: 100vh;
     background-image: url(images/background1.png);
@@ -12,26 +12,26 @@
     z-index: -2;
 }
 
-.logo{
+.logo{/*Style for BrainGPT logo*/
     width: 240px;
     cursor: pointer;
 }
-.content{
+.content{/*Style for content class: body text*/
     width: 100%;
     position: absolute;
     top: 20%;
     color: white;
     text-align: center;
 }
-.content h1{
+.content h1{/*h1 styling*/
     font-size: 70px;
     margin-top: 80px;
 }
-.content h2{
+.content h2{/*h2 styling*/
     font-size: 50px;
     margin-top: 20px;
 }
-.content p{
+.content p{/*paragraph styling*/
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
@@ -39,7 +39,7 @@
 }
 
 
-.button {
+.button {/*Link button styling*/
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -49,7 +49,7 @@
     margin: 50px;
 }
 
-.button span {
+.button span { /*Link button span container*/
     display: block;
     padding: 10px 20px;
     font-size: 20px;
@@ -59,7 +59,7 @@
     z-index: 1;
 }
 
-.button::after {
+.button::after {/*.button style after transformation (hover)*/
     content: "";
     position: absolute;
     top: 0;
@@ -72,42 +72,34 @@
     z-index: 0;
 }
 
-.button:hover::after {
+.button:hover::after {/*Adding hover transformation*/
     transform: translateX(0%);
 }
 
-.exp-button {
+.exp-button {/*"Experiment"-button style*/
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.button-container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar{
+.navbar{ /*Navbar position*/
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.navbar ul{
+.navbar ul{/*General style for pages*/
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #333;
 }
-.navbar li{
+.navbar li{/*List styling*/
     float: left;
 }
 
-.navbar li a{
+.navbar li a{ /*Navbar Link style*/
     display: block;
     color: white;
     text-align: center;
@@ -116,6 +108,6 @@
     z-index: 2;
 }
 
-.navbar li a:hover{
+.navbar li a:hover{/*Navbar Link hover transformation (text underline)*/
     text-decoration: underline;
 }
