@@ -23,16 +23,20 @@
     color: white;
     text-align: center;
 }
-.contentText{/*Style for content class: body text in paragraphs*/
-    width: 100%;
-    position: absolute;
-    top: 20%;
+.container{ /*Creating container class as a box to put text in*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container p.context{/*Style for content class: body text in paragraphs*/
+    width: 50%;
     color: white;
     text-align: left;
 }
 .content h1{/*h1 styling*/
     font-size: 70px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .content h2{/*h2 styling*/
     font-size: 50px;
