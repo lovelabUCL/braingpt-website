@@ -22,7 +22,7 @@ body { /*Body style*/
     top: 20%;
     color: white;
     text-align: center;
-    a:{
+    a:visited {
       color: white;
       background-color: transparent;
       text-decoration: none;}
