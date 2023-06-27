@@ -22,6 +22,11 @@ body { /*Body style*/
     top: 20%;
     color: white;
     text-align: center;
+    a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;}
+    
 }
 .container{ /*Creating container class as a box to put text in*/
     display: flex;
