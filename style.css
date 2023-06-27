@@ -88,7 +88,7 @@ body { /*Body style*/
 }
 
 .exp-button {/*"Experiment"-button style*/
-    position: fixed;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
