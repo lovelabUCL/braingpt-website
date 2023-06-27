@@ -123,3 +123,12 @@ body { /*Body style*/
 .navbar li a:hover{/*Navbar Link hover transformation (text underline)*/
     text-decoration: underline;
 }
+
+.teamlinks a{
+    color: white;
+    text-decoration: none;
+}
+
+.teamlinks a:hover{
+    text-decoration: underline;
+}
