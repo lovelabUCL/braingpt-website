@@ -132,3 +132,19 @@ body { /*Body style*/
 .teamlinks a:hover{
     text-decoration: underline;
 }
+
+.news-item {
+    padding: 20px;
+    margin-bottom: 0px;  /* Space between news items */
+}
+
+.news-date {
+    text-align: center;
+    margin-bottom: 10px;  /* Space between title and text */
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.news-text {
+    text-align: center;
+}
