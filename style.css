@@ -141,6 +141,6 @@ a.button:hover::after {/*Adding hover transformation*/
 
 .news-text {
     text-align: center;
-    width: 75vh;
+    width: 100vh;
 }
 
