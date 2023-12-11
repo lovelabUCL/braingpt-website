@@ -145,5 +145,10 @@ a.button:hover::after {/*Adding hover transformation*/
 }
 
 .large-text {
-    font-size: 24px;
+    font-size: 28px;  
+}
+
+.study-link-underline {
+    width: 50vh;
+    margin: 20px auto;
 }
