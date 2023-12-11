@@ -144,3 +144,6 @@ a.button:hover::after {/*Adding hover transformation*/
     width: 100vh;
 }
 
+.large-text {
+    font-size: 24px;
+}
