@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-14TNT3WGGV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-14TNT3WGGV');
-</script>
-
-    
+    <meta charset="UTF-8">
     <title>Team</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Include custom styles here to adjust the larger fonts as needed -->
+    <style>
+        .core-team a {
+            font-size: 20px; /* Larger font size for team leads */
+            margin-bottom: 10px; /* Space between names */
+        }
+        .contributors {
+            font-size: 16px; /* Slightly smaller font size for contributors */
+            margin-top: 20px; /* Space above the contributors title */
+            margin-left: 10pc; /* Indent the list of contributors */
+            margin-right: 10pc; /* Indent the list of contributors */
+        }
+    </style>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            /* Center the table */
+            margin-left: 18pc;
+            margin-right: 10pc;
+            margin-top: 20px; /* Space above the table */
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #8b2525;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.1em;
+            font-weight: bold;
+            padding: 8px;
+            text-align: left;
+        }
+        .tasks-column {
+            width: 35%;
+        }
+    
+        .authors-column {
+            width: 65%;
+        }
+    </style>
 </head>
-<body><!--Main body of the page-->
-    <nav class="navbar"><!-- Adding navbar with links to subpages-->
+<body>
+    <nav class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="signup.html">Sign-up</a></li>
@@ -26,34 +62,17 @@
             <li><a href="team.html">Team</a></li>
         </ul>
     </nav>
-    <div class="banner"><!--BrainGPT logo in the top right corner-->
+    <div class="banner">
         <img src="images/logo.png" class="logo">
        <div class="content">
-        <!----   <div class="exp-button">
-                <a href="https://google.com" class="button"><span>Google Forms</span></a> --->
-         <!--   <h2> Coming soon.</h2> -->
-           <p>
-            <h4>Project Lead</h4>
-            <div class="teamlinks">
-                <a href="https://bradlove.org">Brad Love</a><br><br>
-            </div>
-            <h4> Team Members (alphabetical order)</h4>
-            <div class="teamlinks">
-                <a href="https://www.ucl.ac.uk/ear/research/bizleylab">Jenny Bizley</a> <br>
-            <a href="https://collinskatie.github.io/">Katie Collins</a> <br>
-            <a href="https://www.ucl.ac.uk/pals/research/experimental-psychology/person/xiaoliang-ken-luo/">Xiaoliang "Ken" Luo</a><br>
-            <a href="https://neuralnoise.com/">Pasquale Minervini</a><br>
-            <a href="https://bradlove.org/lab">Akilles Rechardt</a> <br> 
-            <a href="https://oliverjrobinson.com/">Oliver Robinson</a> <br>
-            <a href="https://mlg.eng.cam.ac.uk/adrian/">Adrian Weller</a><br>
-            <a href="https://www.gla.ac.uk/schools/psychologyneuroscience/staff/mariawimber/">Maria Wimber</a><br>
-            </div>
-            
-           </p>
-            </div> 
-        </div>
-
+           <div class="core-team">
+               <h3>Core Team</h3>
+               <p> </p>
+               <a href="https://don-tpanic.github.io/personal-website/" style="font-size: 24px;">Xiaoliang Luo</a>, 
+               <a href="https://bradlove.org/lab" style="font-size: 24px;">Akilles Rechardt</a>, 
+               <a href="https://bradlove.org" style="font-size: 24px;">Bradley C. Love</a>
+           </div>           
+       </div> 
     </div>
 </body>
-
 </html>
